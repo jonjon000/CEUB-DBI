@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="578918F7-E07B-A16A-7C75-FA63A1B1B6E7" name="Itempedido">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>E00CF93D-2706-A92F-79F5-6C8AA7B41C46</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoproduto" id="9730D217-B14F-F45F-1E20-B392787287FC">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>A420BFEB-31E0-287D-936D-B799B8851C7B</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="decricaopedido" id="D7D1C8AC-18FF-6B86-14BC-18A4B0FA12D2">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>F079D330-13CA-43FB-6DFA-4216B64DCE59</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="E752BC25-9209-16D4-6560-AAD276ADEE92">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>271FA07A-3973-14A9-442C-EBB4A03EECB8</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_indentificacaodopedido2" id="1FC2896C-017F-40FA-581E-7FB8B50E8F0E">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:48:22 UTC</createdTime>
+<generatorID>E1BA4D83-D799-9F9E-4598-DFB9CA6F1D8E</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E574D19-0917-1964-3372-08EEF659EEA6" referredColumn="58E41D1A-0655-5065-535C-7C0304C84B0E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7E87C0F-A986-F752-86AD-A2029C7D6CBC" name="Itempedido_PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>0ACAEBD6-A32D-6EEE-E9C4-28A7A5499F7A</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9730D217-B14F-F45F-1E20-B392787287FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DC6C0FF-CE22-5510-56CB-54C31271BB36" name="Itempedido_Pedidos_FKv2">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:48:22 UTC</createdTime>
+<generatorID>075E4CED-D44C-F585-8D53-F70D4B3ED693</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FC2896C-017F-40FA-581E-7FB8B50E8F0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99EEDEA7-6462-1B1A-BE58-60FDF67BCE58" name="Cliente">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>D15CD18A-C250-A2C0-A082-FDAE828B729C</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomecliente" id="8294FA68-D4F3-6433-8C55-2E521E6CD7C1">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>A3C27607-051B-7043-D158-62A85891A725</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfcliente" id="5C6C7318-CEBF-49A5-3A46-F5AFF5F0A338">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>7A412ABC-7E87-32B4-58D9-197FCBE99864</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="4339BCE3-64A4-5E1A-F6B6-4D79C4AB92DB">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>DCA99B20-77F2-F11C-9308-730BA42693DD</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecodocliente" id="926DF66E-1421-4525-84BF-12DEED42696B">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>24173E66-7EE8-67F3-59A1-80265FBA87C8</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A6AB442-C565-764D-8BF2-BA7E1A0E73B2" name="Cliente_PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>F978C36D-2713-3C5D-1A67-B92561AEE49F</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C6C7318-CEBF-49A5-3A46-F5AFF5F0A338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

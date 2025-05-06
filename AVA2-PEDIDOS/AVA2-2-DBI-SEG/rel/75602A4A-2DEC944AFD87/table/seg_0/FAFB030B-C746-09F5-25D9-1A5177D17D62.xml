@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAFB030B-C746-09F5-25D9-1A5177D17D62" name="Produto">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>C9EDC908-9F5D-D946-C65F-5A025277AD7E</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produto" id="6420826C-7135-5B69-3A77-529F7206A227">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>BEA847C3-FC29-B85F-FDEB-30A97F769BD4</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoproduto" id="3F8D956A-A218-1F6C-91E4-9781713D3FC8">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>E82780D7-A531-7F44-DC55-11266D62CCBC</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="993E6584-5805-F73C-7F32-72304203CA23">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>14E51237-9D83-B2D4-A376-9A6826CD2069</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Itempedido_codigoproduto2" id="6A3AC4D9-0BE1-6BB6-3800-0B0D2D2E6C67">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:48:22 UTC</createdTime>
+<generatorID>3251B1EA-D28E-FEB7-5C4F-A2F995183C88</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E107CE9-0E4A-594F-F321-38C6A969AC1C" referredColumn="9730D217-B14F-F45F-1E20-B392787287FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63C3ED5E-A1C2-8D97-8868-8AB8EE602111" name="Produto_PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>4C829567-145B-134C-2AA8-D91B3C4F93F0</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6420826C-7135-5B69-3A77-529F7206A227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5743304-5638-A582-B09C-E797C297A16A" name="Produto_Itempedido_FKv2">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:48:22 UTC</createdTime>
+<generatorID>5E28E9C8-A0D4-EA12-179B-E8DBC44D8E92</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3AC4D9-0BE1-6BB6-3800-0B0D2D2E6C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

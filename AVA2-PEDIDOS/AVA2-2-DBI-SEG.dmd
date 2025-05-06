@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AVA2-2-DBI-SEG" id="FEFA6151-3738-989D-61C8-5F6DF3A204D1" version="3.5">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:19:27 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FEFA6151-3738-989D-61C8-5F6DF3A204D1</designId>
+</OSDM_Design>

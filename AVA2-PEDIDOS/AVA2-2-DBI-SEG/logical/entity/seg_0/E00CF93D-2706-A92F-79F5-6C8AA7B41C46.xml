@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E00CF93D-2706-A92F-79F5-6C8AA7B41C46" name="Itempedido">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:48:10 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoproduto" id="A420BFEB-31E0-287D-936D-B799B8851C7B">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:49:14 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="decricaopedido" id="F079D330-13CA-43FB-6DFA-4216B64DCE59">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:49:42 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="271FA07A-3973-14A9-442C-EBB4A03EECB8">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:50:07 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indentificacaodopedido" id="E1BA4D83-D799-9F9E-4598-DFB9CA6F1D8E">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:46:21 UTC</createdTime>
+<generatorID>075E4CED-D44C-F585-8D53-F70D4B3ED693</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<referedAttribute>27D0B288-652F-D899-14D8-C89040525207</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0ACAEBD6-A32D-6EEE-E9C4-28A7A5499F7A" name="Itempedido PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:18:23 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A420BFEB-31E0-287D-936D-B799B8851C7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

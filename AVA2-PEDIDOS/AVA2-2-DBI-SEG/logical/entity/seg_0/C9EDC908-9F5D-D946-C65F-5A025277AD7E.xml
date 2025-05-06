@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9EDC908-9F5D-D946-C65F-5A025277AD7E" name="Produto">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:32:35 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="produto" id="BEA847C3-FC29-B85F-FDEB-30A97F769BD4">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:32:49 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoproduto" id="E82780D7-A531-7F44-DC55-11266D62CCBC">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:33:08 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="14E51237-9D83-B2D4-A376-9A6826CD2069">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:33:27 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoproduto" id="3251B1EA-D28E-FEB7-5C4F-A2F995183C88">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:46:08 UTC</createdTime>
+<generatorID>5E28E9C8-A0D4-EA12-179B-E8DBC44D8E92</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<referedAttribute>A420BFEB-31E0-287D-936D-B799B8851C7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C829567-145B-134C-2AA8-D91B3C4F93F0" name="Produto PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:35:09 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEA847C3-FC29-B85F-FDEB-30A97F769BD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

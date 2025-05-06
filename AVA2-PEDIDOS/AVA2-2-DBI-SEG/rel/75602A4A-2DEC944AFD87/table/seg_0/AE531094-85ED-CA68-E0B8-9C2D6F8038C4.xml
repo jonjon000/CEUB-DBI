@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE531094-85ED-CA68-E0B8-9C2D6F8038C4" name="Vendedor">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>0720AD04-2CC6-2265-A006-CB3532E11E02</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomevendedor" id="230CA9E7-662A-3BC0-6FD2-B14DA6EC07A7">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>7B68B04A-36D5-9192-5DDE-73814ABAACD3</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="184E406D-1497-4461-4095-9A5E97DCA7D8">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>ACE12CF4-78B1-B838-B059-E57E74E632CC</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29E35810-9331-7B67-15DA-04A768FEC257" name="Vendedor_PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:39:15 UTC</createdTime>
+<generatorID>F3A5D2D5-EA97-4679-9264-EC3DAA327A3A</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184E406D-1497-4461-4095-9A5E97DCA7D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

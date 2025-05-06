@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0720AD04-2CC6-2265-A006-CB3532E11E02" name="Vendedor">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:22:32 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomevendedor" id="7B68B04A-36D5-9192-5DDE-73814ABAACD3">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:24:49 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="ACE12CF4-78B1-B838-B059-E57E74E632CC">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:25:26 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3A5D2D5-EA97-4679-9264-EC3DAA327A3A" name="Vendedor PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-05 23:56:10 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75602A4A-E4C9-E00B-5369-2DEC944AFD87" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACE12CF4-78B1-B838-B059-E57E74E632CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

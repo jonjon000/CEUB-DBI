@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E574D19-0917-1964-3372-08EEF659EEA6" containerWithKeyObject="578918F7-E07B-A16A-7C75-FA63A1B1B6E7" localFKIndex="7DC6C0FF-CE22-5510-56CB-54C31271BB36" name="Itempedido_Pedidos_FKv2">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-06 00:48:22 UTC</createdTime>
+<generatorID>075E4CED-D44C-F585-8D53-F70D4B3ED693</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG</ownerDesignName>
+<referredTableLongName>Pedidos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F77B4CA5-8B0D-E631-A89E-5C2123A8F48F</referredTableID>
+<keyObject>5C7D9034-ADC6-D8FC-DA87-2855137CC502</keyObject>
+<referredKeyID>5C7D9034-ADC6-D8FC-DA87-2855137CC502</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>indentificacaodopedido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
