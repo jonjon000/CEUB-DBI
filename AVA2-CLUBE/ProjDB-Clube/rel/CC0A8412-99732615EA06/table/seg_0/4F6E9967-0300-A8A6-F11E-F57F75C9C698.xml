@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F6E9967-0300-A8A6-F11E-F57F75C9C698" name="ValormensalidadeVencimento">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>785B2380-E42E-4E22-88B4-C5951A504151</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="valorMensalidade" id="245C23F6-FDEC-8802-D88B-E1CE853FEB80">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>507892EA-7E46-E692-D9EF-C453A27C291B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vencimentoMensalidade" id="A41E5ECA-CC99-9B9A-6358-5F912A773706">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>FDD09A8C-4553-B3A8-7292-9DC735B3975F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTitular" id="3A37E7CF-16E7-531D-6502-DE8F718314C6">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>9FC4D747-43E7-DE81-5081-3E5A288F2BCD</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular_Titular_ID" id="95C99801-6B17-18CF-EE26-A8A2088FD59C">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTitular1" id="4D5A5A30-8572-81B2-5E7D-F30C9430FC78">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:31:10 UTC</createdTime>
+<generatorID>B7842DA7-FCD4-CC6A-89A3-A3B540B01E89</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A058801-EB79-CA4E-604E-DDD432E590BB" referredColumn="AA92C242-222C-7859-4688-F8F05B025B34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310403A2-9357-2C8C-77DB-B07286540A9A" name="ValormensalidadeVencimento_PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>688D83FF-D089-A5D3-C0A8-D7EF90B88C94</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A37E7CF-16E7-531D-6502-DE8F718314C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="486DE05D-2C71-ED6B-0A7A-68166CA5FDAD" name="ValormensalidadeVencimento_Titular_FK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>CD2E7805-C0CD-1B14-20A7-DD053357D076</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D5A5A30-8572-81B2-5E7D-F30C9430FC78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

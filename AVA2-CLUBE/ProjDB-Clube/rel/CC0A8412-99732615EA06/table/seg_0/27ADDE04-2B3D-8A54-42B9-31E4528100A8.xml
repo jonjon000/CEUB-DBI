@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27ADDE04-2B3D-8A54-42B9-31E4528100A8" name="Titular">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>16351BF3-E47F-EC4D-9695-40DDABA134AA</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="AA92C242-222C-7859-4688-F8F05B025B34">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>541EFD89-F857-A91D-5405-16183E6E54C7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeTitular" id="B206E32D-70D3-8634-C90E-ACD56C03F001">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>7134C939-D4C4-16DD-D4DC-B1794E69974E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneTitular" id="E35727A3-D2C2-334F-2047-6C5E9F80E36D">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>CF53760C-1C0D-0983-8F98-7DE6CCEFDAEF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNacimentoTitular" id="03598CD9-F302-1623-39E3-9BDD786AF9ED">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<generatorID>CBF3E770-0B17-6C0B-03D5-69B2DB31FD6D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular_ID" id="0032B446-CDD9-DC2B-FC5D-D512DCC22AC3">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98F84610-FCAA-43C1-F72B-392D03607109" name="Titular_PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:28:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0032B446-CDD9-DC2B-FC5D-D512DCC22AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F49C018-FA99-D431-FD57-95AA7CC5C1D6" name="Titular_cpfTitular_UN">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:31:10 UTC</createdTime>
+<generatorID>FAEF2BBB-7643-BAD1-5415-CACA74F22290</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA92C242-222C-7859-4688-F8F05B025B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

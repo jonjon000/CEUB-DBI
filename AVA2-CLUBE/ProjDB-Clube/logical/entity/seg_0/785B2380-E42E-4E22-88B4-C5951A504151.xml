@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="785B2380-E42E-4E22-88B4-C5951A504151" name="ValormensalidadeVencimento">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-19 23:24:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CC0A8412-5E3B-1D88-7069-99732615EA06" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="valorMensalidade" id="507892EA-7E46-E692-D9EF-C453A27C291B">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-19 23:40:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CC0A8412-5E3B-1D88-7069-99732615EA06" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimentoMensalidade" id="FDD09A8C-4553-B3A8-7292-9DC735B3975F">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-19 23:40:50 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CC0A8412-5E3B-1D88-7069-99732615EA06" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="9FC4D747-43E7-DE81-5081-3E5A288F2BCD">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-19 23:55:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CC0A8412-5E3B-1D88-7069-99732615EA06" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="B7842DA7-FCD4-CC6A-89A3-A3B540B01E89">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-20 00:31:02 UTC</createdTime>
+<generatorID>CD2E7805-C0CD-1B14-20A7-DD053357D076</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CC0A8412-5E3B-1D88-7069-99732615EA06" value="true"/>
+</engineerTo>
+<referedAttribute>541EFD89-F857-A91D-5405-16183E6E54C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="688D83FF-D089-A5D3-C0A8-D7EF90B88C94" name="ValormensalidadeVencimento PK">
+<createdBy>jonathan.ssilva</createdBy>
+<createdTime>2025-05-19 23:56:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CC0A8412-5E3B-1D88-7069-99732615EA06" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FC4D747-43E7-DE81-5081-3E5A288F2BCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
